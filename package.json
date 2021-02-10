@@ -1,0 +1,28 @@
+{
+  "name": "csgo-demo-analysis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production&nodemon server.js"
+  },
+  "author": "Wiktor Kapłan",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "big-integer": "^1.6.48",
+    "cookie-parser": "^1.4.5",
+    "demofile": "^1.8.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.18",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "uuid": "^8.3.1",
+    "validator": "^13.5.1"
+  }
+}
